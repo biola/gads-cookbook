@@ -1,5 +1,5 @@
 # Installation Options
-default[:gads][:download_url] = 'http://dl.google.com/dirsync/google/googleappsdirsync_linux_64bit_3_2_1.sh'
+default[:gads][:download_url] = 'http://dl.google.com/dirsync/dirsync-linux64.sh'
 default[:gads][:create_symlinks] = true
 default[:gads][:install_path] = '/opt/GoogleAppsDirSync'
 default[:gads][:symlinks_path] = '/usr/local/bin'
